@@ -1,11 +1,10 @@
-name: Init Workflow
+name: init
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubuntu-latest
+    runs-on: ununtu-latest
     steps:
-      - name: Greeting
-        run: echo "Hello World!"
-      - name: Goodbye
-        run: echo "Done! Bye!"
-        
+      - name: Hello
+      - run: echo 'Hello World'
+      
+    
